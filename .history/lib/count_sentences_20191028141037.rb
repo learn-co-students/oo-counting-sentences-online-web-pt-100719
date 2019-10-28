@@ -6,14 +6,14 @@ class String
   end
 
   def question?
-    self.end_with?("?")
+    self.end_with("?")
   end
 
-  def exclamation?
-    self.end_with?("!")
+  def exclamation
+    self.end_with("!")
   end
 
   def count_sentences
-    self.split(/[.?!]+/).count
+    self.split(" ").count
   end
 end
