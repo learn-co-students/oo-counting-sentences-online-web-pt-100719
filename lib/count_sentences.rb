@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-  self.split(/\.|\?|!/).count
+  self.split(/\.\,|\?|!/).count
   #.count(0..-1) && .count[0..-1] not work
  # self.grep(/^\w\W\s/) not work
  # binding.pry
