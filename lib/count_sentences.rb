@@ -16,6 +16,7 @@ class String
 
   def count_sentences
   self.split(/\.\,|\?|!/).count
+  #self.split(/\.|\?|!/).count won't return # of sentence in a complex str test
   #.count(0..-1) && .count[0..-1] not work
  # self.grep(/^\w\W\s/) not work
  # binding.pry
